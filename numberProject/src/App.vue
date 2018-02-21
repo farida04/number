@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/menu.svg">
     <router-view/>
   </div>
 </template>
