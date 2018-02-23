@@ -64,6 +64,7 @@ form{
      color: #fff;
      margin: 20px 40px;
      font-size: 1.8em;
+     border-radius: 20px;
  }
  #new{
      position: absolute;
