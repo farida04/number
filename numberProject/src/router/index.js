@@ -4,6 +4,7 @@ import Login from '@/components/login'
 import Inscription from '@/components/inscription'
 import Menu from '@/components/menu'
 import Duel from '@/components/duel'
+import Infos from '@/components/my-infos'
 
 Vue.use(Router)
 
@@ -28,11 +29,11 @@ export default new Router({
      path:'/duel',
      name: 'Duel',
      component: Duel
- },
- {
+  },
+  {
      path: '/infos',
      name: 'Infos',
      component: Infos
- }
+  }
   ]
 })
