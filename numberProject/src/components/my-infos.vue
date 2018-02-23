@@ -32,6 +32,10 @@ export default {
         margin-bottom: 5vh;
     }
 
+    #logo {
+        margin-left: 8vw;
+    }
+
     #wins, #losses {
         width: 46.9vw;
         height: 20vh;
