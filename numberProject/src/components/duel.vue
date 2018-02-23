@@ -11,27 +11,28 @@
         <article>
             <table>
                 <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
+                    <td @click='afficher'>1</td>
+                    <td @click='afficher'>2</td>
+                    <td @click='afficher'>3</td>
+                    <td @click='afficher'>4</td>
                 </tr>
                 <tr>
-                    <td>5</td>
-                    <td>6</td>
-                    <td>7</td>
-                    <td>8</td>
+                    <td @click='afficher'>5</td>
+                    <td @click='afficher'>6</td>
+                    <td @click='afficher'>7</td>
+                    <td @click='afficher'>8</td>
                 </tr>
                 <tr>
-                    <td>9</td>
-                    <td>0</td>
-                    <td>-</td>
-                    <td>C</td>
+                    <td @click='afficher'>9</td>
+                    <td @click='afficher'>0</td>
+                    <td @click='afficher'>-</td>
+                    <td @click='afficher'>C</td>
                 </tr>
             </table>
         </article>
         <article>
-            <div class="resultat"></div>
+            <div class="resultat" v-text='resultat | afficher'></div>
+            <img id='play' src="./../assets/play.svg">
         </article>
     </div>
 
@@ -40,6 +41,14 @@
 <script>
 export default {
     name: 'Duel',
+    data: {
+        resultat: '',
+    },
+    methods: {
+        // afficher: function(e){
+        //     this.resultat = 0 ;
+        // }
+    }
 }
 </script>
 
@@ -69,7 +78,7 @@ hr{
 table{
     position: absolute;
     top: 280px;
-    left: 90px;
+    left: 30px;
 }
 
 td{
@@ -100,5 +109,12 @@ td{
     position: absolute;
     top: 550px;
     left: 50px;
+}
+#play{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 560px;
+    right: 60px;
 }
 </style>

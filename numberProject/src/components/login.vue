@@ -27,23 +27,22 @@ export default {
 <style scoped>
 
 #logo{
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     position: absolute;
-    top: 30px;
-    left: 80px;
+    top: 10px;
+    left: 30px;
 }
 
 form{
     position: absolute;
-    top:300px;
-    left: 40px;
+    top:280px;
 }
 
 .connect{
      display: block;
      border: none;
-     margin: 30px auto;
+     margin: 30px ;
      width: 70vw;
      border-bottom: 3px solid #44A5A5;
      text-align: center;
@@ -58,14 +57,14 @@ form{
      height: 80px;
      background: #44A5A5;
      color: #fff;
-     margin: 20px 40px;
+     margin: 20px 15px;
      font-size: 2em;
      border-radius: 20px;
  }
  #new{
      position: absolute;
      top: 580px;
-     left: 110px;
+     left: 70px;
      font-size: 1.8em;
      color: dimGray;
      text-decoration: underline;
