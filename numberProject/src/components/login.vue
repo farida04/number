@@ -8,7 +8,10 @@
               <input id='btn' type="submit" name="connexion" placeholder="connexion">
          </router-link>
       </form>
-      <p id="new">Nouvel Utilisateur</p>
+
+      <router-link to='/inscription'>
+          <p id="new">Nouvel Utilisateur</p>
+      </router-link>
   </div>
 </template>
 
