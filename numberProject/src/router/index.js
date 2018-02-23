@@ -28,6 +28,11 @@ export default new Router({
      path:'/duel',
      name: 'Duel',
      component: Duel
-  }
+ },
+ {
+     path: '/infos',
+     name: 'Infos',
+     component: Infos
+ }
   ]
 })
